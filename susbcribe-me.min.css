@@ -1,0 +1,34 @@
+﻿
+/* Subscribe Form Edit */
+#subscribe-box {margin:20px auto 0px;padding:0;width: 80%;height: auto;border-radius: 6px 6px 6px 6px;
+	background: #fff;
+}
+#subscribe-box .title {padding: 10px 25px;line-height: 30px;font: bold 26px Montserrat, Arial, sans-serif;color: black;text-align: center;text-transform:uppercase;
+	background: linear-gradient(45deg, #7dffcb, #00ff77, #00ffc3, #00fff7, #00d5ff, #035787);background-size: 500% 500%;
+    -webkit-animation: ROGradient 9s ease infinite;
+    -moz-animation: ROGradient 9s ease infinite;
+    animation: ROGradient 9s ease infinite;}
+#subscribe-box .title img {
+}
+#subscribe-box p {font-family: Montserrat, Arial, sans-serif;font-size: 16px;color:#000;line-height:20px;padding: 10px 20px 0 20px;margin: 0; text-align: center;font-weight: bold;}
+#subscribe-box p.left { text-align:left;}
+#subscribe-box .emailfield {padding: 0px 20px 10px;}
+#subscribe-box .emailfield input {box-sizing: border-box;line-height:15px;color: #777;padding: 10px;margin-top: 10px;font-size: 16px;font-family: Montserrat, Arial, sans-serif;border-bottom:1px solid #dbdbdb;border-top:1px solid transparent;border-left:1px solid transparent;border-right:1px solid transparent;border-radius: 2px;width:100%;}
+#subscribe-box .emailfield input:focus {outline: none;}
+#subscribe-box .emailfield .submitbutton, #subscribe-box .close {width:100%;background: #1e90ff;color: #fff;font-weight: bold;border:none;outline: none; cursor:pointer; -webkit-transition: background 1.7s ease;border-radius: 4px;}
+#subscribe-box .emailfield .submitbutton:hover, #subscribe-box .close:hover{ background: #133b2d;cursor: pointer;}
+@-webkit-keyframes ROGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes ROGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes ROGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
